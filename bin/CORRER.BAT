@@ -31,4 +31,3 @@ if exist %~dp0\stderr.txt   goto quit
 %~dp0\bgdi.exe %var2%
 if exist %~dp0\stderr.txt  type %~dp0\stderr.txt
 :quit
-pause 
