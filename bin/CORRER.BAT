@@ -9,8 +9,10 @@ if not exist %var3%\main.prg (
 	FOR %%a IN ("%var3:~0,-1%") DO (
 		set var3=%%~dpa
 		if %var3%==%~d0\ (
-			echo No main.prg found. End of program.
-			exit 
+			echo No main.prg found.			
+			set var1=%1
+			set var2=%2
+			goto continue
 		)
 		goto checkMain
 	)
@@ -18,6 +20,8 @@ if not exist %var3%\main.prg (
 	set var1=%var3%\main.prg
 	set var2=%var3%\main
 )
+
+:continue
 
 echo Main file : %var1%
 if exist %~dp0\stderr.txt  del %~dp0\stderr.txt
