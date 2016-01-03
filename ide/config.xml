@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="7" y="7" width="1920" height="1040" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="0" y="0" width="1920" height="1040" isMaximized="yes" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -91,7 +91,6 @@
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" />
         <GUIConfig name="DockingManager" leftWidth="320" rightWidth="123" topHeight="115" bottomHeight="232">
             <FloatingWindow cont="4" x="1470" y="438" width="1811" height="576" />
-            <FloatingWindow cont="4" x="1470" y="438" width="1811" height="576" />
             <PluginDlg pluginName="SherloXplorer.dll" id="0" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="NppExec.dll" id="2" curr="3" prev="4" isVisible="yes" />
@@ -118,34 +117,43 @@
         <Filter name="*.*" />
         <Filter name="*.&#xFFB5;" />
         <Filter name="*.prg" />
-        <Find name="dead = false" />
-        <Find name="home.prg" />
-        <Find name="set_level_score" />
-        <Find name="save" />
-        <Find name="mainlife" />
-        <Find name="fade" />
-        <Find name="is_point_hover_object" />
+        <Find name="fade_in();" />
+        <Find name="fade_out();" />
+        <Find name="out_region" />
+        <Find name="fade_off" />
+        <Find name="fade_on" />
+        <Find name="load_fnt" />
+        <Find name="load_fpg" />
         <Find name="say(" />
-        <Find name="text_horizontal_slide_effect" />
-        <Find name="blush_on_variable_decrease" />
+        <Find name="virtual_angle" />
+        <Find name="EaseInOutCubic" />
+        <Replace name="fade(100,100,100,16);" />
+        <Replace name="fade(0,0,0,16);" />
+        <Replace name="region_out" />
+        <Replace name="fade_out" />
+        <Replace name="fade_in" />
+        <Replace name="fnt_load" />
+        <Replace name="fpg_load" />
         <Replace name="blush_on_variable_decrease" />
         <Replace name="Level2" />
         <Replace name="level" />
-        <Replace name="region_out" />
-        <Replace name="fnt_load" />
-        <Replace name="fpg_load" />
-        <Replace name="i" />
-        <Replace name="graph_info_lazy_loading" />
-        <Replace name="end" />
     </FindHistory>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Bennu-Ben-Library\common_utils.prg" />
-        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Bennu-Ben-Library\region_utils.prg" />
-        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Town\canon.prg" />
-        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Bennu-Ben-Library\click_utils.prg" />
         <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Interface\score.prg" />
         <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Interface\commons.prg" />
         <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Bennu-Ben-Library\Easing\quint_easing.prg" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Levels\level_2.prg" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Levels\level_4.prg" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Levels\level_3.prg" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Bonus\bonus_container.prg" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Levels\levels_parameters.prg" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE\bin\CORRER.BAT" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Enemy\enemy_base.prg" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE\bin\COMPILEMAIN.BAT" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE\pixtudio\COMPILEMAIN.BAT" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE\pixtudio\CREAREXEM.BAT" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE\pixtudio\CREAREXE.BAT" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE\pixtudio\CORRERD.BAT" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
