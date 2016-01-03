@@ -1,0 +1,16 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="5">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="968" startPos="899" endPos="899" selMode="0" lang="BennuGD" encoding="-1" filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Bennu-Ben-Library\graphic_effects.prg" backupFilePath="" originalFileLastModifTimestamp="1451826785" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1240" startPos="113" endPos="621" selMode="0" lang="BennuGD" encoding="-1" filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Levels\level_1.prg" backupFilePath="" originalFileLastModifTimestamp="1451827188" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1240" startPos="81" endPos="81" selMode="0" lang="BennuGD" encoding="-1" filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Levels\level_2.prg" backupFilePath="" originalFileLastModifTimestamp="1451827230" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1240" startPos="0" endPos="0" selMode="0" lang="BennuGD" encoding="-1" filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Levels\level_4.prg" backupFilePath="" originalFileLastModifTimestamp="1451817389" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1240" startPos="675" endPos="675" selMode="0" lang="BennuGD" encoding="-1" filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Levels\level_3.prg" backupFilePath="" originalFileLastModifTimestamp="1451827410" />
+            <File firstVisibleLine="15" xOffset="0" scrollWidth="920" startPos="861" endPos="861" selMode="0" lang="BennuGD" encoding="-1" filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Character\character.prg" backupFilePath="" originalFileLastModifTimestamp="1451830866" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1016" startPos="375" endPos="380" selMode="0" lang="BennuGD" encoding="-1" filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Bonus\bonus_container.prg" backupFilePath="" originalFileLastModifTimestamp="1450731339" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="280" startPos="184" endPos="184" selMode="0" lang="BennuGD" encoding="-1" filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Levels\levels_parameters.prg" backupFilePath="" originalFileLastModifTimestamp="1451830088" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1176" startPos="687" endPos="687" selMode="0" lang="BennuGD" encoding="-1" filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Enemy\enemy_base.prg" backupFilePath="" originalFileLastModifTimestamp="1451001896" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>

@@ -1,0 +1,13 @@
+
+2015-07-29 12-52-16:
+====================
+Le processus ne peut pas accéder au fichier 'C:\Users\Ben.ben-vostro\AppData\Roaming\Notepad++\plugins\Config\SherloXplorer.config.xml', car il est en cours d'utilisation par un autre processus.
+   à System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   à System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   à System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   à System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   à System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   à System.IO.StreamWriter..ctor(String path)
+   à SherloXplorer.Settings.SerializeObject(Object sourceObject, String targetPath)
+   à SherloXplorer.Settings.SaveConfigs()
+   à SherloXplorer.Main.PluginCleanUp()
