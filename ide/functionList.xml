@@ -31,6 +31,7 @@ http://notepad-plus-plus.org/features/function-list.html
 			<association langID="22" id="python_function"/>
 			<association langID="26" id="bash_function"/>
 			<association langID="28" id="nsis_syntax"/>
+			<association userDefinedLangName="BennuGD" id="bennugd_function"/>
 		<!--
 			if langID cannot be found above, you can still set the file extensions
 			<association ext=".my_passer_ext1" id="my_passer_id"/>
@@ -254,6 +255,19 @@ http://notepad-plus-plus.org/features/function-list.html
 				<function mainExpr="">
 				</function>
 			</parser>
+			
+			<parser id="bennugd_function" displayName="BennuGD function/process" commentExpr="((/\*.*?\*)/|(//.*?$))">
+				<function
+				    mainExpr="^[\t ]*(function|process)[\t ]+[^\r\n]*$"
+					openSymbole = "begin"
+					closeSymbole = "end"
+					displayMode="$functionName">
+					<functionName>
+						<nameExpr expr="[^{]*"/>
+					</functionName>
+				</function>
+			</parser>
+			
 		</parsers>
 	</functionList>
 </NotepadPlus>
