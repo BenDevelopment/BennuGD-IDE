@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="0" y="0" width="1094" height="1040" isMaximized="no" />
+        <GUIConfig name="AppPosition" x="734" y="47" width="1094" height="1040" isMaximized="yes" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -86,12 +86,12 @@
         <GUIConfig name="ScintillaGlobalSettings" enableMultiSelection="no" />
         <GUIConfig name="openSaveDir" value="0" defaultDirPath="" />
         <GUIConfig name="titleBar" short="no" />
+        <GUIConfig name="stylerTheme" path="C:\Users\Ben.ben-vostro\AppData\Roaming\Notepad++\stylers.xml" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" />
-        <GUIConfig name="DockingManager" leftWidth="360" rightWidth="93" topHeight="115" bottomHeight="232">
+        <GUIConfig name="DockingManager" leftWidth="360" rightWidth="81" topHeight="115" bottomHeight="232">
             <FloatingWindow cont="4" x="1470" y="438" width="1811" height="576" />
             <FloatingWindow cont="5" x="1672" y="218" width="1891" height="774" />
-            <FloatingWindow cont="4" x="1470" y="438" width="1811" height="576" />
             <PluginDlg pluginName="SherloXplorer.dll" id="0" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="5" isVisible="yes" />
@@ -108,19 +108,29 @@
     </GUIConfigs>
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+        <Path name="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense" />
+        <Path name="C:\Creations\Programmation\VideoGames\BennuGD\Games\PixtudioTests" />
+        <Path name="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE" />
+        <Path name="C:\Creations\Programmation\VideoGames\BennuGD\devBennu version splinterGU\ide" />
+        <Path name="C:\Users\Ben.ben-vostro\Desktop\josebagar-pixtudio-b81507ae7a29" />
+        <Path name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\kalisup" />
+        <Path name="C:\Creations\Programmation\VideoGames\BennuGD\Games\TownDefense\Source" />
+        <Path name="C:\Creations\Programmation\VideoGames\BennuGD\Games\TownDefenseSDL2\Source" />
+        <Path name="C:\Creations\Programmation\VideoGames\BennuGD\Games\TownDefense\SourceSDL2" />
+        <Path name="C:\Creations\Programmation\VideoGames\BennuGD\BennuGD-IDE\ide" />
         <Filter name="*.*" />
         <Filter name="*.&#xFFB5;" />
         <Filter name="*.prg" />
+        <Find name="build.xml" />
+        <Find name="bennu" />
+        <Find name="android" />
+        <Find name="say(" />
         <Find name="16" />
         <Find name="create_map" />
         <Find name="text_map" />
         <Find name="out_region" />
         <Find name="stop_scroll" />
         <Find name="start_scroll" />
-        <Find name="scroll_strat" />
-        <Find name="out" />
-        <Find name="_esc" />
-        <Find name="keyUp" />
         <Replace name="region_out" />
         <Replace name="scroll_stop" />
         <Replace name="scroll_start" />
@@ -133,6 +143,21 @@
         <Replace name="Level2" />
     </FindHistory>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-Android\TownDefense\export\build.properties" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-Android\TownDefense\export\AndroidManifest.xml" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-Android\TownDefense\compile-pixtudio.bat" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-Android\TownDefense\export-android-pixtudio.bat" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-Android\bennu-android.backup\res\layout\main.xml" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-Android\bennu-android\AndroidManifest.xml" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Interface\Screens\home.prg" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Bennu-Ben-Library\init_library.prg" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Pixtudio\elCompilador\bin\elCompilador\projects\TownDefense\src\Initializer\load_resources.prg" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE\ide\config.xml" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE\ide\contextMenu.xml" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE\ide\doLocalConf.xml" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE\ide\lang.bennugd.xml" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE\ide\langs.model.xml" />
+        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE\ide\langs.xml" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />

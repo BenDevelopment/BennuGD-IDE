@@ -1,8 +1,12 @@
 <NotepadPlus>
     <Session activeView="0">
-        <mainView activeIndex="1">
+        <mainView activeIndex="3">
             <File firstVisibleLine="0" xOffset="0" scrollWidth="210" startPos="125" endPos="125" selMode="0" lang="Normal Texte" encoding="-1" filename="new 1" backupFilePath="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE\ide\backup\new 1@2016-02-01_212647" originalFileLastModifTimestamp="0" />
-            <File firstVisibleLine="93" xOffset="0" scrollWidth="2793" startPos="5504" endPos="5504" selMode="0" lang="XML" encoding="1252" filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE\ide\config.xml" backupFilePath="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE\ide\backup\config.xml@2016-02-01_212712" originalFileLastModifTimestamp="1454356925" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="2779" startPos="0" endPos="0" selMode="0" lang="XML" encoding="-1" filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE\ide\session.xml" backupFilePath="" originalFileLastModifTimestamp="1454358432" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1176" startPos="0" endPos="0" selMode="0" lang="XML" encoding="-1" filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE\ide\shortcuts.xml" backupFilePath="" originalFileLastModifTimestamp="1450207451" />
+            <File firstVisibleLine="51" xOffset="0" scrollWidth="1099" startPos="0" endPos="0" selMode="0" lang="XML" encoding="1252" filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE\ide\stylers.model.xml" backupFilePath="" originalFileLastModifTimestamp="1449706246" />
+            <File firstVisibleLine="81" xOffset="0" scrollWidth="1099" startPos="0" endPos="0" selMode="0" lang="XML" encoding="1252" filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE\ide\stylers.xml" backupFilePath="" originalFileLastModifTimestamp="1450207369" />
+            <File firstVisibleLine="24" xOffset="0" scrollWidth="26369" startPos="0" endPos="0" selMode="0" lang="XML" encoding="-1" filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE\ide\userDefineLang.xml" backupFilePath="" originalFileLastModifTimestamp="1453471687" />
         </mainView>
         <subView activeIndex="0" />
     </Session>
