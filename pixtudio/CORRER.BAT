@@ -28,10 +28,10 @@ if exist %~dp0\stderr.txt  del %~dp0\stderr.txt
 if exist %~dp0\stdout.txt  del %~dp0\stdout.txt
 if exist %var2%.dcb    del %var2%.dcb
 pushd  %var3%
-%~dp0\pxtp.exe  %var1%
+%~dp0\pxtb.exe  %var1%
 if exist %~dp0\stdout.txt   type %~dp0\stdout.txt
 if exist %~dp0\stderr.txt   type %~dp0\stderr.txt
 if exist %~dp0\stderr.txt   goto quit
-%~dp0\pxtb.exe %var2%
+%~dp0\pxtp.exe %var2%
 if exist %~dp0\stderr.txt  type %~dp0\stderr.txt
 :quit

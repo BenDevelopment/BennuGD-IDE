@@ -1,0 +1,10 @@
+src > 
+	main.prg
+	> Functions
+			> function.prg
+			> foo.prg
+	> Foo
+			> foo.prg
+	> Assets
+			> foo.fpg
+			> foo.fnt

@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="-7" y="7" width="1094" height="1040" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="0" y="0" width="1094" height="1040" isMaximized="no" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -86,10 +86,9 @@
         <GUIConfig name="ScintillaGlobalSettings" enableMultiSelection="no" />
         <GUIConfig name="openSaveDir" value="0" defaultDirPath="" />
         <GUIConfig name="titleBar" short="no" />
-        <GUIConfig name="stylerTheme" path="C:\Users\Ben.ben-vostro\AppData\Roaming\Notepad++\stylers.xml" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" />
-        <GUIConfig name="DockingManager" leftWidth="360" rightWidth="265" topHeight="115" bottomHeight="232">
+        <GUIConfig name="DockingManager" leftWidth="360" rightWidth="93" topHeight="115" bottomHeight="232">
             <FloatingWindow cont="4" x="1470" y="438" width="1811" height="576" />
             <FloatingWindow cont="5" x="1672" y="218" width="1891" height="774" />
             <FloatingWindow cont="4" x="1470" y="438" width="1811" height="576" />
@@ -109,56 +108,31 @@
     </GUIConfigs>
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
-        <Path name="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE" />
-        <Path name="C:\Creations\Programmation\VideoGames\BennuGD\devBennu version splinterGU\ide" />
-        <Path name="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense" />
-        <Path name="C:\Users\Ben.ben-vostro\Desktop\josebagar-pixtudio-b81507ae7a29" />
-        <Path name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\kalisup" />
-        <Path name="C:\Creations\Programmation\VideoGames\BennuGD\Games\TownDefense\Source" />
-        <Path name="C:\Creations\Programmation\VideoGames\BennuGD\Games\TownDefenseSDL2\Source" />
-        <Path name="C:\Creations\Programmation\VideoGames\BennuGD\Games\TownDefense\SourceSDL2" />
-        <Path name="C:\Creations\Programmation\VideoGames\BennuGD\BennuGD-IDE\ide" />
-        <Path name="E:\Cr&#xFFE9;ations\Programmation\Jeux vid&#xFFE9;os\Div Game Studio" />
         <Filter name="*.*" />
         <Filter name="*.&#xFFB5;" />
         <Filter name="*.prg" />
-        <Find name="let_me_" />
-        <Find name="&lt;/AutoComplete&gt;" />
-        <Find name="c#" />
-        <Find name="#" />
-        <Find name="sharp" />
-        <Find name="Ground" />
-        <Find name="Level2" />
-        <Find name="Level1" />
-        <Find name="add_item_in_level" />
-        <Find name="struct" />
+        <Find name="16" />
+        <Find name="create_map" />
+        <Find name="text_map" />
+        <Find name="out_region" />
+        <Find name="stop_scroll" />
+        <Find name="start_scroll" />
+        <Find name="scroll_strat" />
+        <Find name="out" />
+        <Find name="_esc" />
+        <Find name="keyUp" />
+        <Replace name="region_out" />
+        <Replace name="scroll_stop" />
+        <Replace name="scroll_start" />
+        <Replace name="scroll_strat" />
         <Replace name="Level7" />
         <Replace name="Level6" />
         <Replace name="Level5" />
         <Replace name="Level4" />
         <Replace name="Level3" />
         <Replace name="Level2" />
-        <Replace name="BlueRain" />
-        <Replace name="fpg_Weapon" />
-        <Replace name="RondasMother" />
-        <Replace name="item" />
     </FindHistory>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Bennu-Ben-Library\map_utils.prg" />
-        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Initializer\load_resources.prg" />
-        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Levels\level_player.prg" />
-        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Repository\level_repository.prg" />
-        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-Android\create-new-app.bat" />
-        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-Android\generate-keystore.bat" />
-        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\devBennu version splinterGU\ide\functionList.xml" />
-        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\devBennu version splinterGU\ide\shortcuts.xml" />
-        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\devBennu version splinterGU\ide\langs.model.xml" />
-        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\devBennu version splinterGU\ide\config.model.xml" />
-        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE\ide\functionList.xml" />
-        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE\ide\plugins\APIs\bennugd.xml" />
-        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE\ide\plugins\APIs\actionscript.xml" />
-        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Games\towndefense\Source\Initializer\ctags.tmp" />
-        <File filename="C:\Creations\Programmation\VideoGames\BennuGD\Tools\BennuGD-IDE\ide\plugins\APIs\php.xml" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
